@@ -1,0 +1,86 @@
+/* Add styles for desktop view */
+
+/* Increase container width */
+.budget-container {
+    width: 100%; /* Adjust as needed */
+    max-width: 10000px; /* Set a maximum width for larger screens */
+    margin: 100px auto; /* Center the container */
+    height:130%;
+}
+
+/* Adjust font sizes for better readability on larger screens */
+.app-title a {
+    font-size: 2.5em; /* Increase font size */
+}
+
+/* Adjust layout of header elements */
+.budget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance, .account, .chart, .outcome, .income {
+    width: 60%; /* Adjust width of individual sections */
+}
+
+/* Adjust layout and spacing */
+.budget-header .balance {
+    margin-left: 20px;
+}
+
+.budget-header .account {
+    margin: 0 20px;
+}
+
+/* Adjust font sizes */
+.budget-header .balance .value,
+.budget-header .account .income .income-total,
+.budget-header .account .outcome .outcome-total,
+.toggle .tab1,
+.toggle .tab2,
+.toggle .tab3 {
+    font-size: 1.2em; /* Increase font size */
+}
+
+/* Adjust padding and margins */
+.budget-dashboard {
+    width: 80%; /* Adjust width */
+    max-width: 1200px; /* Set a maximum width */
+    height: auto; /* Allow height to adjust based on content */
+    margin: 30px auto; /* Center the dashboard */
+}
+
+/* Adjust padding and margins for toggle */
+.toggle {
+    margin: 20px 0;
+}
+
+.toggle .tab1,
+.toggle .tab2,
+.toggle .tab3 {
+    margin: 0 10px; /* Adjust spacing between tabs */
+}
+
+/* Adjust layout of input fields */
+.input input {
+    width: 15px; /* Adjust input width */
+    margin: 55px; /* Adjust margins */
+}
+
+/* Adjust width of list items */
+.list li {
+    width: 90%; /* Adjust width */
+}
+/* Adjust height of the container to fit content */
+.budget-container {
+    height: auto; /* Allow height to adjust based on content */
+}
+
+/* Adjust height of the dashboard to fit content */
+.budget-dashboard {
+    height: auto; /* Allow height to adjust based on content */
+}
+
+
+/* Add any additional styles for desktop view as needed */
